@@ -78,6 +78,24 @@ int main()
 
 int checkwin()
 {
+	if (square[1] == square[2] && square[2] == square[3])
+	return 1;
+
+	else if (square[4] == square[5] && square[5] == square[6])
+	return 1;
+
+	else if (square[7] == square[8] && square[8] == square[9])
+	return 1;
+
+	else if (square[1] == square[4] && square[4] == square[7])
+	return 1;
+
+	else if (square[4] == square[5] && square[5] == square[6])
+	return 1;
+
+	else if (square[4] == square[5] && square[5] == square[6])
+	return 1;
+	
 	return 0;
 }
 
